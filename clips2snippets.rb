@@ -25,17 +25,18 @@ Dir.mktmpdir do |tmpdir|
   end
   
   indexes.each_with_index do |index, n|
-    puts "this is hash"
     eor = (indexes[n+1])? indexes[n+1].to_i : objects.size
     #placeholders = objects[index+4, eor]
     #placeholders.pop
     title = objects[index+1]
     code = objects[index+2]
     trigger = objects[index+3]
+    puts "found: #{title}"
     
     # ST2 Snippet
     st2_snippet = "<snippet>\n  <content><![CDATA[\n%s\n]]></content>\n  <tabTrigger>%s</tabTrigger>\n  <description>%s</description>\n  <!-- <scope>[add here]</scope> -->\n</snippet>"
     snippet = st2_snippet % [code, trigger, title]
     open("#{title}.sublime-snippet", "w").puts snippet
+    puts "Finished converting all of Clips!"
   end
 end
