@@ -27,5 +27,3 @@ Pull requests are welcome!
 
 Maintained by o_ame - http://oameya.com  
 Licensed under MIT License
-
-※Sample pictures shot by me :)
