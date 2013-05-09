@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Clips2snippets::VERSION
   spec.authors       = ["o_ame"]
   spec.email         = ["oame@oameya.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Tools that convert Coda Clips to Sublime Text Snippets.}
+  spec.summary       = %q{Tools that convert Coda Clips to Sublime Text Snippets.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
