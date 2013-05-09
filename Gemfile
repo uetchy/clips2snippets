@@ -1,3 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "plist"
+# Specify your gem's dependencies in clips2snippets.gemspec
+gemspec
