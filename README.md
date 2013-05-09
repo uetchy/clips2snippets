@@ -10,12 +10,16 @@ This tool help you to convert Coda Clips into Sublime Text Snippets.
 # Installation
 
 ```bash
-git clone git://github.com/oame/clips2snippets.git && cd clips2snippets
-bundle install # to install all dependencies
-ruby clips2snippets.rb Snippets.clips
+$ gem install clips2snippets
 ```
 
-All done!
+# Usage
+
+```bash
+$ clips2snippets gen HTML.clips
+Found Clip: htmllayout
+Finished converting all of Clips!
+```
 
 # Contribution
 
