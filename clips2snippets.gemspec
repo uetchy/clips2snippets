@@ -6,8 +6,8 @@ require 'clips2snippets/version'
 Gem::Specification.new do |spec|
   spec.name          = "clips2snippets"
   spec.version       = Clips2snippets::VERSION
-  spec.authors       = ["o_ame"]
-  spec.email         = ["oame@oameya.com"]
+  spec.authors       = ["Yasuaki Uechi"]
+  spec.email         = ["uetchy@randompaper.co"]
   spec.description   = %q{Tools that convert Coda Clips to Sublime Text Snippets.}
   spec.summary       = %q{Tools that convert Coda Clips to Sublime Text Snippets.}
   spec.homepage      = ""
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
   spec.add_dependency "plist"
-  spec.add_dependency 'thor'
+  spec.add_dependency "thor"
 end

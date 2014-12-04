@@ -23,11 +23,9 @@ Finished converting all of Clips!
 
 # Contribution
 
-If you have any improvement / new feature requests, please tell us in reply to my Twitter or writing to the box for opinions anonymously.
-
 Pull requests are welcome!
 
 # Credits
 
-Maintained by o_ame - http://oameya.com  
+Maintained by Yasuaki Uechi
 Licensed under MIT License
